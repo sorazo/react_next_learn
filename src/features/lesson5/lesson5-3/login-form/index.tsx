@@ -53,7 +53,17 @@ export const LoginForm: React.FC = () => {
                 <input type="text" {...register("id")} />
                 {errors.id && <div>{errors.id.message}</div>}
                 <br />
-                <label>パスワード</label>
+                <label>パスワード<!DOCTYPE html>
+                <html lang="ja">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Document</title>
+                </head>
+                <body>
+
+                </body>
+                </html></label>
                 <br />
                 <input type="password" {...register("password")} />
                 {errors.password && <div>{errors.password.message}</div>}
