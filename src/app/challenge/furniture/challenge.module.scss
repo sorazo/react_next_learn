@@ -1,0 +1,45 @@
+// PCバージョン（768px以上）
+@media (min-width: 768px) {
+    .mainImage {
+        display: block;
+        margin: 0 auto;
+        // margin-bottom: 100px;
+    }
+
+    .concent {
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    .title {
+        display: inline-block;
+        text-align: center;
+        padding: 20px;
+        border-bottom: 1px solid;
+        margin-bottom: 100px;
+    }
+
+    .letter {
+        width: 35%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .shopping {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        margin: 0 310px;
+    }
+
+    .shopping p {
+        text-align: left;
+    }
+
+    .viewMore {
+        display: block;
+        text-align: center;
+    }
+}

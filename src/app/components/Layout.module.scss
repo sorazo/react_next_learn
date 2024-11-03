@@ -1,0 +1,52 @@
+/* src/components/Header.module.scss */
+// PCバージョン（768px以上）
+@media (min-width: 768px) {
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 310px;
+    }
+
+    .navigation p {
+        font-weight: bold;
+    }
+
+    .hamburgerMenu {
+        display: inline-block;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        position: relative;
+    }
+
+    .hamburgerMenu span {
+        content: "";
+        display: block;
+        width: 25px;
+        height: 2px;
+        background: black;
+        position: absolute;
+    }
+
+    .hamburgerMenu span:nth-child(1) {
+        top: 20px;
+    }
+
+    .hamburgerMenu span:nth-child(2) {
+        bottom: 0;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu li {
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 20px;
+    }
+
+    .container {
+        margin: 100px 0;
+    }
+}

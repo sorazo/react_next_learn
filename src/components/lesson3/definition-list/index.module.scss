@@ -1,0 +1,18 @@
+@import "@/styles/mixins";
+.dl {
+    @include pc {
+        display: flex;
+    }
+    border-bottom: solid 1px #ccc;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.dt {
+    width: 100px;
+    font-weight: bold;
+}
+
+.dd {
+    margin: 0;
+}

@@ -1,0 +1,38 @@
+.wrapper {
+    border: solid 1px #ccc;
+
+    // &:not(.open) {
+    //     .contents {
+    //         display: none;
+    //     }
+    // }
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    &::after {
+        content: "+";
+    }
+}
+
+.contents {
+    border-top: solid 1px #ccc;
+    padding: 10px;
+    display: none;
+}
+
+.open {
+    .btn {
+        &::after {
+            content: "-";
+        }
+    }
+    .contents {
+        display: block;
+    }
+}
