@@ -53,7 +53,7 @@ export const LoginForm: React.FC = () => {
                 <input type="text" {...register("id")} />
                 {errors.id && <div>{errors.id.message}</div>}
                 <br />
-                <label>パスワード!</label>
+                <label>パスワード</label>
                 <br />
                 <input type="password" {...register("password")} />
                 {errors.password && <div>{errors.password.message}</div>}
